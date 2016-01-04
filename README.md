@@ -1,5 +1,5 @@
 #Ceilometer setup
-
+#maestro-pandy
 #Install common components
 
 sudo apt-get install git -y
@@ -40,7 +40,7 @@ cd ~/devstack
 
 ./stack.sh
 
-#Restart Ceilometer Auditing
+#Restart Ceilometer Auditing, after recommended settings
 
 -restart nova and cinder after changes mentioned in http://docs.openstack.org/developer/ceilometer/install/development.html
 
