@@ -23,7 +23,7 @@ sudo ifconfig eth0:0 10.0.2.15
 #Prepare for Devstack Installation
 
 git clone https://github.com/openstack-dev/devstack.git
-
+frf
 cd ~/devstack
 
 -copy https://github.com/ceph/ceph-devstack/localrc to ~/devstack/localrc
